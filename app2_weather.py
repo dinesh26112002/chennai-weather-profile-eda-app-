@@ -26,6 +26,7 @@ st.sidebar.markdown('''
 `Created with ❤️ by `[dinesh](https://github.com/dinesh26112002/).
 ''')
 
+#it is used to hide the 3 slash icon 
 st.markdown(""" <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
