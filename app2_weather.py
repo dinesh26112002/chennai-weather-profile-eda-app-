@@ -69,6 +69,8 @@ with c2:
 st.markdown('### Pollution chart(1990-2022)')
 st.line_chart(seattle_weather, x = 'date', y = plot_data, height = plot_height)
 
+
+#set background image
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read())
